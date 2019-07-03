@@ -1,0 +1,130 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/stylecs.css">
+    <link rel="icon" href="favicon.ico" type="favicon.ico">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+
+</head>
+
+<body>
+
+    <div class="nav">
+
+        <img class="logo" src="res/para.png" alt="GoMyCode" width="50px" height="50px">
+
+        <ul>
+
+            <li class="nav-element"><a href="index.html">Home</a></li>
+            <li class="nav-element"><a href="contrat.html">Contrat</a></li>
+            <li class="nav-element"><a href="Courses.html">Courses</a></li>
+        </ul>
+
+    </div>
+
+    <center>
+        <div class="slide">
+            <div class="header">
+                <h1>Courses</h1>
+            </div>
+        </div>
+        <div class="lkol">
+            <div id="ex1" class="modal">
+                <p>Thanks for clicking. That felt good.</p>
+                <a href="#" rel="modal:close">Close</a>
+            </div>
+
+            <div class="Cours1">
+                <div class="course1">
+                    <a href="#ex1" rel="modal:open"><button class="btnCourses3">View more</button>
+                </div>
+                <div class="course2">
+                    <a href="#ex1" rel="modal:open"><button class="btnCourses3">View more</button>
+                </div>
+                <div class="course3">
+                    <a href="#ex1" rel="modal:open"><button class="btnCourses3">View more</button>
+                </div>
+            </div>
+
+            <div class="Cours2">
+                <div class="course4">
+                    <button class="btnCourses1">View more</button>
+                </div>
+                <div class="course5">
+                    <a href="#ex1" rel="modal:open"><button class="btnCourses3">View more</button>
+                </div>
+                <div class="course6">
+                    <a href="#ex1" rel="modal:open"><button class="btnCourses3">View more</button>
+                </div>
+            </div>
+            <div class="Cours3">
+                <div class="course7">
+                    <div id="background1">
+
+                        <div id="background11">
+                            <button id="btncourses1">View more</button>
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="course8">
+                    <a href="#ex1" rel="modal:open"><button class="btnCourses3">View more</button>
+                </div>
+                <div class="course9">
+
+                    <a href="#ex1" rel="modal:open"><button class="btnCourses3">View more</button>
+                    </a>
+                </div>
+            </div>
+            <button id="btncourses1">View more</button>
+        </div>
+        <h4>FeedBack</h4>
+
+
+        <div class="alignements">
+            <button id="bld" onclick="changerbold()">B</button>
+            <button id="itlc" onclick="changeritalic()">I</button>
+            <button id="lign" onclick="changerligne()">Underline</button>
+
+            <form>
+                <select id="select" onchange="changersize()">
+                    <option value="20px">20px</option>
+                    <option value="30px">30px</option>
+                    <option value="40px">40px</option>
+
+
+                </select>
+
+
+                <select id="select1" onchange="changerfont()">
+                    <option value="Arial">Arial</option>
+                    <option value="verdana">Verdana</option>
+                    <option value="geneva">Geneva</option>
+
+
+                </select>
+            </form>
+        </div>
+
+        <br>
+        <br>
+
+
+        <textarea id="textarea" class="box" cols="30" rows="10"></textarea>
+
+
+
+
+
+
+    </center>
+</body>
+<script src="js/main.js"></script>
+
+</html>

@@ -1,0 +1,75 @@
+
+body{background: Linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+
+    Linear-gradient(127deg, black, black 70.71%),
+    
+    Linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+.slide{
+    width: 1510px;
+    height: 510px;
+    background-image:url(../res/devweb.png)
+
+}
+.header{
+    font-size: 80px;
+    color:#ff5c33    ;
+    padding: 80px 100px;
+}
+
+.formg {
+    color: white;
+    font-size: bold;
+margin: 80px;
+
+
+    
+}
+
+select,input{
+    width: 200px;
+    border: 1px solid white
+    
+}
+.btn:hover{
+    color: blue;
+    background-color: aquamarine;
+
+}
+.nav ul{
+    display: flex;
+    justify-content:center;
+   margin-left: -400px;
+
+    
+  }
+  .nav li,a{
+    display: inline;
+    text-decoration: none;
+    color:white;
+    font-size: 30px;
+    margin-left: 40px
+    
+  }
+  
+  .nav a:hover {
+    color:  #4d31ee;
+
+    }
+  
+  .nav a:active {
+    color: white;
+  }
+ .nav{
+   margin-left: 400px;
+   margin-bottom:60px;
+  
+ }
+ .nav img{
+   margin : 0px;
+   padding:0px 0px;
+   float:left;
+   margin-left: -397px;
+ }
+
+

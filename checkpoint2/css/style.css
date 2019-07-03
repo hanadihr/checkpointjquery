@@ -1,0 +1,91 @@
+body{background: Linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+
+    Linear-gradient(127deg, black, black 70.71%),
+    
+    Linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    
+    }
+
+    .nav ul{
+    display: flex;
+    justify-content:center;
+   margin-left: -400px;
+
+    
+  }
+  .nav li,a{
+    display: inline;
+    text-decoration: none;
+    color:white;
+    font-size: 30px;
+    margin-left: 40px
+    
+  }
+  
+  .nav a:hover {
+    color:  #4d31ee;
+
+    }
+  
+  .nav a:active {
+    color: white;
+  }
+ .nav{
+   margin-left: 400px;
+   margin-bottom:60px;
+  
+ }
+ .nav img{
+   margin : 0px;
+   padding:0px 0px;
+   float:left;
+   margin-left: -397px;
+ }
+ .cours{
+   margin-left:300px;
+  
+   display: flex;
+ }
+ .course1{
+    background-image:url(../res/3.png);
+   height: 250px;
+   width: 250px;
+   overflow: hidden;
+   margin-left: 60px;
+   
+ }
+ .course2{
+    background-image:url(../res/4.png);
+  height: 250px;
+  width: 250px;
+  overflow: hidden;
+  margin-left: 60px;
+  
+}
+
+.course3{
+    background-image:url(../res/6.png);
+  height: 250px;
+  width: 250px;
+  overflow: hidden;
+  display: inline-block;
+  margin-left: 60px;
+  
+}
+.course3:hover,.course1:hover,.course2:hover{
+  transform: scale(1.5); 
+
+}
+.btnCourses3 {
+  margin-top: 120px;
+  display: none;
+}
+.btnCourses3:hover {
+  margin-top: 120px;
+  
+}
+h4:hover{text-decoration: underline; 
+  color: #4d31ee;
+
+
+}

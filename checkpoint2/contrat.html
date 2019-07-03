@@ -1,0 +1,70 @@
+ <html>
+ <head>
+     <link rel="stylesheet" href="css/stylec.css">
+     <link rel="icon" href="favicon.ico" type="favicon.ico">
+           <!-- modal -->
+           <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+
+
+ </head>
+ <body>
+       <div class="nav">
+
+        <img class="logo" src="res/para.png" alt="GoMyCode" width="50px" height="50px">
+
+<ul>
+
+    <li class="nav-element"><a href="index.html">Home</a></li>
+    <li class="nav-element"><a href="contrat.html">Contrat</a></li>
+    <li class="nav-element"><a href="Courses.html">Courses</a></li>
+</ul>
+
+</div>
+    
+    <center>
+            
+                    <div class="slide">
+                     <div class="header">
+                    <h1>Contact</h1>
+                    </div>
+                    </div>
+
+                    
+
+            
+        <div class="formg">
+        <form>
+            <label >Name</label><br><input onchange="fect1(event.target.value)"type="text"placeholder="write your name"><br><br>
+            <label class="titre">Track</label><br>
+            <select>
+                <option value="web">Web</option>
+                <option value="game">Game</option>
+                <option value="ai">AI</option>
+                
+
+
+            </select>
+            <label class="titre">adress mail</label><br><input pattern="/" type="text"placeholder="name@exemple.com"><br><br>
+            <label class="titre">phone number</label><br><input type="text"placeholder="your phone number"><br><br>
+            <button class="btn"   >Submit</button>
+        </form>
+
+        </div>
+
+    </center>
+    <div id="ex1" class="modal">
+        <p>Thanks for clicking. That felt good.</p>
+        <a href="#" rel="modal:close">Close</a>
+      </div>
+      
+      <!-- Link to open the modal -->
+      <p><a href="#ex1" rel="modal:open">Open Modal</a></p>
+    </body>
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="js/main.js" ></script>
+
+    </html>

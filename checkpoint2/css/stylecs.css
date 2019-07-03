@@ -1,0 +1,177 @@
+
+body{background: Linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+
+    Linear-gradient(127deg, black, black 70.71%),
+    
+    Linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+
+}
+
+.slide{
+    width: 1510px;
+    height: 510px;
+    background-image:url(../res/devweb.png)
+
+}
+.header{
+    font-size: 80px;
+    color:#ff5c33    ;
+    padding: 80px 100px;
+}
+
+.alignements {
+display: flex; 
+margin-left: 650px;   
+}
+
+/*input{
+    border: 1px solid white;
+    border-radius: 5px;*/
+}
+textarea{
+    margin-left: 350px;
+    border:1px solid white;
+    border-radius: 5px;
+
+}
+h4{
+    color: white;
+
+}
+.nav ul{
+    display: flex;
+    justify-content:center;
+   margin-left: -400px;
+
+    
+  }
+  .nav li,a{
+    display: inline;
+    text-decoration: none;
+    color:white;
+    font-size: 30px;
+    margin-left: 40px
+    
+  }
+  
+  .nav a:hover {
+    color:  #4d31ee;
+
+    }
+  
+  .nav a:active {
+    color: white;
+  }
+ .nav{
+   margin-left: 400px;
+   margin-bottom:60px;
+  
+ }
+ .nav img{
+   margin : 0px;
+   padding:0px 0px;
+   float:left;
+   margin-left: -397px;
+ }
+ .course1{
+    background-image:url(../res/3.png);
+   height: 250px;
+   width: 250px;
+   overflow: hidden;
+   margin-left: 60px;
+   
+ }
+ .course2{
+    background-image:url(../res/4.png);
+  height: 250px;
+  width: 250px;
+  overflow: hidden;
+  margin-left: 60px;
+  
+}
+
+.course3{
+    background-image:url(../res/6.png);
+  height: 250px;
+  width: 250px;
+  overflow: hidden;
+  margin-left: 60px;
+  
+}
+
+.course4{
+    background-image:url(../res/3.png);
+   height: 250px;
+   width: 250px;
+   overflow: hidden;
+   margin-left: 60px;
+   
+ }
+ .course5{
+    background-image:url(../res/10.png);
+  height: 250px;
+  width: 250px;
+  overflow: hidden;
+  margin-left: 60px;
+  
+}
+
+.course6{
+    background-image:url(../res/20.png);
+  height: 250px;
+  width: 250px;
+  overflow: hidden;
+  margin-left: 60px;
+  
+}
+
+/*.course7{
+    /*background-image:url(../res/40.png);*/
+  #background1{
+    background-image:url(../res/40.png);
+display: block;
+   height: 250px;
+   width: 250px;
+   overflow: hidden;
+   margin-left: 60px;
+   
+ }
+ #background11{
+   height: 100%;
+   width: 100%;
+    display: none;
+   background-color: black;
+   opacity: 0.6;
+
+ }
+ #btncourses1{
+  display: hidden;
+  position:absolute;
+ }
+ .course8{
+    background-image:url(../res/50.png);
+  height: 250px;
+  width: 250px;
+  overflow: hidden;
+  margin-left: 60px;
+  
+}
+
+.course9{
+    background-image:url(../res/60.png);
+  height: 250px;
+  width: 250px;
+  overflow: hidden;
+  margin-left: 60px;
+  
+}
+.cours1,.cours2,.cours3{
+    margin-left:300px;
+    
+margin-top: 50px;   
+    display: flex;
+  }
+  .lkol{
+    display: none;
+  }
+ 
